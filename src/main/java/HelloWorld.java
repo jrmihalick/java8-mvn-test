@@ -18,6 +18,8 @@ public class HelloWorld {
     // Run em!
     r1.run();
     r2.run();
+    
+    println intentional syntax error;
 
   }
 }
