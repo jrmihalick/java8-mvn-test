@@ -11,8 +11,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
     
@@ -30,8 +30,8 @@
                <rules>
                  <requireJavaVersion>
                    <!--  Version must be >= 1.8, but less than 1.9 for now -->
-                   <version>[1.8,1.9)</version>
-                   <message>&gt;&gt;&gt;&gt;&gt; ${project.artifactId} requires Java 1.8.x &lt;&lt;&lt;&lt;&lt;</message>
+                   <version>[1.6,1.9)</version>
+                   <message>&gt;&gt;&gt;&gt;&gt; ${project.artifactId} requires Java 1.6.x or greater &lt;&lt;&lt;&lt;&lt;</message>
                  </requireJavaVersion>
                </rules>
              </configuration>
