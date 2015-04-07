@@ -19,7 +19,7 @@ public class HelloWorld {
     r1.run();
     r2.run();
     
-    println intentional syntax error;
+    //println intentional syntax error;
 
   }
 }
