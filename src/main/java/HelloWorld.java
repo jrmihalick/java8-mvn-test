@@ -13,11 +13,11 @@ public class HelloWorld {
     };
 
     // Lambda Runnable
-    Runnable r2 = ( ) -> System.out.println( "Hello world two!" );
+//    Runnable r2 = ( ) -> System.out.println( "Hello world two!" );
 
     // Run em!
     r1.run();
-    r2.run();
+//    r2.run();
     
     //println intentional syntax error;
 
